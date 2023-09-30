@@ -17,40 +17,37 @@
         android:orientation="vertical"
         android:gravity="center_horizontal" />
 
-
     <Button
         android:id="@+id/clickbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-
         android:layout_marginBottom="78dp"
-        android:text="Save Water Now!!!"
+        android:text="Next!!!"
         android:textStyle="italic" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="466dp"
+            app:lottie_rawRes="@raw/animation"
+            app:lottie_autoPlay="true"
+            />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/clickbutton"
-        android:layout_marginBottom="-63dp"
-        android:text="click on this"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/black"
-        />
-    
-    
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:layout_marginBottom="40dp"
+        android:fontFamily="cursive"
+        android:text="Water is the only resource that links Ecology with Economics"
+        android:textAlignment="center"
+        android:textColor="#E9040007"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColorHighlight="#2E42AE"/>
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="match_parent"
-            android:layout_height="379dp"
-            app:lottie_rawRes="@raw/animation"
-            app:lottie_autoPlay="true"
-            />
-    </LinearLayout>
 
 </RelativeLayout>
