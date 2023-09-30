@@ -42,7 +42,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
         android:fontFamily="cursive"
-        android:text="Water is the only resource that links Ecology with Economics"
+        android:text="Water is the only resource that links Ecology with Economy"
         android:textAlignment="center"
         android:textColor="#E9040007"
         android:textSize="28dp"
