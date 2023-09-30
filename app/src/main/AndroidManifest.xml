@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JalSanket"
         tools:targetApi="31">
+        <activity android:name=".Intropage"/>
 
         <activity
             android:name=".splashscreen"
