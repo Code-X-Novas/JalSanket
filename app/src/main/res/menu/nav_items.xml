@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Alerts"
+        android:title="Alerts"
+        android:icon="@drawable/alerticon"
+        />
+    <item android:id="@+id/Maps"
+        android:title="Maps"
+        android:icon="@drawable/baseline_map_24"
+        />
+    <item android:id="@+id/Explore"
+        android:title="Explore"
+        android:icon="@drawable/baseline_search_24"
+        />
+    <item android:id="@+id/info"
+        android:title="Info"
+        android:icon="@drawable/baseline_info_24"
+        />
+    <item android:id="@+id/Forum"
+        android:title="Forum"
+        android:icon="@drawable/baseline_forum_24"
+        />
+
+
+
+</menu>
