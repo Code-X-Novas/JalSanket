@@ -8,11 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link explore#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class explore extends Fragment {
 
 
@@ -21,14 +17,8 @@ public class explore extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment explore.
-     */
+
+
 
 
 

@@ -15,6 +15,8 @@ BottomNavigationView botNav;
 
         botNav = findViewById(R.id.botNav);
 
+
+
         
     }
 }
