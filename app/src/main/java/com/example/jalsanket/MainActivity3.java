@@ -11,6 +11,8 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.Map;
+
 public class MainActivity3 extends AppCompatActivity {
 BottomNavigationView botNav;
     @Override
@@ -29,11 +31,8 @@ BottomNavigationView botNav;
                 if (id==R.id.Alerts){
                  loadfrag(new Alerts(), false);
 
-                } else if (id==R.id.mapView) {
-                    loadfrag(new Maps(), true);
-
                 } else if (id==R.id.Explore) {
-                    loadfrag(new explore(), false);
+                    loadfrag(new explore(), true);
 
                 } else if (id==R.id.info) {
                     loadfrag(new info(), false);
@@ -46,7 +45,7 @@ BottomNavigationView botNav;
             }
         });
 
-        botNav.setSelectedItemId(R.id.Maps);
+        botNav.setSelectedItemId(R.id.Explore);
     }
 
     public void loadfrag(Fragment fragment, boolean flag){

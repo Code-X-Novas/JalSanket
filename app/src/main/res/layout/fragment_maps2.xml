@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:mapmyindia="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <com.mapmyindia.sdk.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        mapmyindia:mapbox_style_url="https://maps.mapmyindia.com/styles/root.json?key=YOUR_API_KEY"
-        mapmyindia:access_token="2c7ea8de22b1e3dc2f85d23d853ef866"
-        mapmyindia:mapbox_cameraPosition="6.9271,79.8612,10"
-        mapmyindia:mapbox_cameraZoom="14"
-        tools:ignore="MissingClass" />
-</RelativeLayout>
+    android:layout_height="match_parent"
+    tools:context=".MapsFragment"  />
 
 
