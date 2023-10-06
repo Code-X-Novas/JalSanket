@@ -29,7 +29,7 @@ BottomNavigationView botNav;
                 if (id==R.id.Alerts){
                  loadfrag(new Alerts(), false);
 
-                } else if (id==R.id.map) {
+                } else if (id==R.id.mapView) {
                     loadfrag(new Maps(), true);
 
                 } else if (id==R.id.Explore) {

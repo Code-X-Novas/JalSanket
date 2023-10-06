@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:mapmyindia="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,10 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         mapmyindia:mapbox_style_url="https://maps.mapmyindia.com/styles/root.json?key=YOUR_API_KEY"
-        mapmyindia:access_token="YOUR_API_KEY"
+        mapmyindia:access_token="2c7ea8de22b1e3dc2f85d23d853ef866"
         mapmyindia:mapbox_cameraPosition="6.9271,79.8612,10"
         mapmyindia:mapbox_cameraZoom="14"
-        />
+        tools:ignore="MissingClass" />
 </RelativeLayout>
 
 

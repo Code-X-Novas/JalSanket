@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">Jal Sanket</string>
-
-    <string name="access_token" templateMergeStartegy="preseve" translatable="false">2c7ea8de22b1e3dc2f85d23d853ef866</string>
-
 </resources>
