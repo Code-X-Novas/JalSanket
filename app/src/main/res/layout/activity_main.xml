@@ -11,12 +11,14 @@
     <Button
         android:id="@+id/clickbutton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-
         android:layout_marginBottom="78dp"
         android:text="Save Water Now!!!"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        />
+
+
 
 </RelativeLayout>
