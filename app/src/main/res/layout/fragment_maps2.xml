@@ -12,7 +12,8 @@
         mapmyindia:mapbox_style_url="https://maps.mapmyindia.com/styles/root.json?key=YOUR_API_KEY"
         mapmyindia:access_token="YOUR_API_KEY"
         mapmyindia:mapbox_cameraPosition="6.9271,79.8612,10"
-        mapmyindia:mapbox_cameraZoom="14" />
+        mapmyindia:mapbox_cameraZoom="14"
+        />
 </RelativeLayout>
 
 
