@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +9,29 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="explore" />
+         />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/MapTerrain"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:src="@drawable/mapterrain" />
+    <TextView
+        android:id="@+id/grndh20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GroundWater Level"
+        android:layout_below="@+id/MapTerrain"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/mapterrrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grndh20"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/mapterrrain" />
+
+
+</RelativeLayout>
+
